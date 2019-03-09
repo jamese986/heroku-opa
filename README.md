@@ -67,3 +67,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 -   [ReactJS](https://reactjs.org/)
 -   [Freedcodecamp](https://medium.freecodecamp.org/rock-solid-react-js-foundations-a-beginners-guide-c45c93f5a923)
+-   [Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
