@@ -1,5 +1,6 @@
 import React from "react";
 import { CSSTransitionGroup } from "react-transition-group";
+import Cards from "./Cards";
 import "../styles/worksStyle.css";
 
 const Works = () => {
@@ -11,7 +12,7 @@ const Works = () => {
       transitionEnter={false}
       transitionLeave={false}
     >
-      <div>Works</div>
+      <Cards />
     </CSSTransitionGroup>
   );
 };

@@ -1,36 +1,30 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div>
-      <footer className="footer">
-        <div className="container">
-          <ul className="social-icon animate pull-right">
-            <li>
-              <Link
-                to="http://facebook.com/"
-                className="nav-link"
-                title="facebook"
-                target="_blank"
-              >
-                <i className="fa fa-facebook" />
-              </Link>
-            </li>
-            <li>
-              <Link to="http://twitter.com/" title="twitter" target="_blank">
-                <i className="fa fa-twitter" />
-              </Link>
-            </li>
-            <li>
-              <Link to="http://google.com/" title="google plus" target="_blank">
-                <i className="fa fa-google-plus" />
-              </Link>
-            </li>
-          </ul>
+    <Fragment>
+      <hr />
+      <footer className="col-md-12 footer">
+        <div className="mb-medium footer-social">
+          <a href="https://www.facebook.com/dmuleicester">
+            <i className="fa fa-facebook fa-2x edit-icon" />
+          </a>
+          <a href="https://twitter.com/dmuleicester">
+            <i className="fa fa-twitter fa-2x edit-icon" />
+          </a>
+          <a href="https://plus.google.com/103011102637243054782/posts">
+            <i className="fa fa-google-plus fa-2x edit-icon" />
+          </a>
+          <a href="index.html">
+            <i className="fa fa-home fa-2x edit-icon" />
+          </a>
+        </div>
+        <div className="bg-dark  copyright-tag">
+          17-3110-AA © <br />| Secure Web Assignment 2017 |<a href>sitemap</a>
         </div>
       </footer>
-    </div>
+    </Fragment>
   );
 };
 

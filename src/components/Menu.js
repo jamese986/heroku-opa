@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <Link to="http://facebook.com/" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         @JAMESE986
       </Link>
       <button
@@ -36,7 +36,7 @@ const Menu = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-link">
+            <Link to="/data" className="nav-link">
               Data-Visualisation
             </Link>
           </li>
