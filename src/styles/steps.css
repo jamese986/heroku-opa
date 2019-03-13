@@ -1,0 +1,10 @@
+body {
+  counter-reset: process-counter;
+}
+.process-counter {
+  counter-increment: process-counter;
+}
+.process-counter:before {
+  content: counter(process-counter);
+  font-style: normal;
+}

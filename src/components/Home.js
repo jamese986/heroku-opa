@@ -1,6 +1,6 @@
 import React from "react";
 import { CSSTransitionGroup } from "react-transition-group";
-import "../styles/homeStyle.css";
+import Steps from "./Home/Steps";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -12,7 +12,6 @@ const Home = () => {
       transitionEnter={false}
       transitionLeave={false}
     >
-      <div>Home</div>
       <div className="alert alert-dismissible alert-warning">
         <button type="button" className="close" data-dismiss="alert">
           ×
@@ -27,6 +26,7 @@ const Home = () => {
           .
         </p>
       </div>
+      <Steps />
     </CSSTransitionGroup>
   );
 };

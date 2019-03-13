@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Jumbotron() {
   return (
@@ -7,17 +8,20 @@ export default function Jumbotron() {
         <div className="container">
           <h1 className="jumbotron-heading">Portfolio / Works</h1>
           <p className="lead text-muted">
-            Something short and leading about the collection below—its contents,
-            the creator, etc. Make it short and sweet, but not too short so
-            folks don't simply skip over it entirely.
+            Below are a some of pieces from my past works which I have
+            undertaken. Unfortunatley some pieces are not avaliable online so I
+            have the physical copies with me today.
           </p>
           <p>
-            <a href="#" className="btn btn-primary my-2">
-              Main call to action
-            </a>
-            <a href="#" className="btn btn-secondary my-2">
-              Secondary action
-            </a>
+            <Link
+              href="https://github.com/jamese986/"
+              className="btn btn-primary my-2"
+            >
+              GitHub
+            </Link>
+            <Link href="#" className="btn btn-secondary my-2">
+              Nebula
+            </Link>
           </p>
         </div>
       </section>
