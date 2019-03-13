@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Works from "./Works";
-import About from "./About";
+import About from "./About/About";
 import Data from "./DataVis/DataVis";
 
 const Content = () => {

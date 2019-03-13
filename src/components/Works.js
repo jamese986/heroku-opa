@@ -1,6 +1,6 @@
 import React from "react";
 import { CSSTransitionGroup } from "react-transition-group";
-import Cards from "./Cards";
+import Cards from "./Works/Cards";
 import "../styles/worksStyle.css";
 
 const Works = () => {

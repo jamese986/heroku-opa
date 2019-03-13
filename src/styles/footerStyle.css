@@ -1,0 +1,20 @@
+/*Footer*/
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-light {
+  background-color: #fff;
+}
+
+.footer-light *,
+.footer-light a {
+  color: #222;
+}
+
+.footer-social a {
+  font-size: 16px;
+  margin-right: 15px;
+}

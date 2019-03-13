@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <Fragment>
       <hr />
-      <footer className="col-md-12 footer">
+      {/* Footer Start*/}
+      <footer className="footer-c footer-light section-padding text-center">
         <div className="mb-medium footer-social">
           <a href="https://www.facebook.com/dmuleicester">
             <i className="fa fa-facebook fa-2x edit-icon" />
@@ -20,10 +21,12 @@ const Footer = () => {
             <i className="fa fa-home fa-2x edit-icon" />
           </a>
         </div>
-        <div className="bg-dark  copyright-tag">
-          17-3110-AA © <br />| Secure Web Assignment 2017 |<a href>sitemap</a>
+        <div className="copyright-tag">
+          @jamese986 © | Single Page React App |
         </div>
       </footer>
+      {/* Footer End --
+       */}
     </Fragment>
   );
 };
